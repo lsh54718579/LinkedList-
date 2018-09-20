@@ -1,0 +1,14 @@
+// ListNode.java
+
+public class ListNode
+{
+   private String data;
+   private ListNode next;
+
+   public ListNode(String d)
+   {
+      data = d;
+      next = null;
+   }  // constructor
+}  // class ShortNode
+
