@@ -1,11 +1,11 @@
 // ListNode.java
 
-public class ListNode
+public class ListNode <T>
 {
-   private String data;
-   private ListNode next;
+   public String data;
+   public ListNode <T> next;
 
-   public ListNode(String d)
+   public ListNode(T d)
    {
       data = d;
       next = null;
