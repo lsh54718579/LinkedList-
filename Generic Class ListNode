@@ -2,7 +2,7 @@
 
 public class ListNode <T>
 {
-   public String data;
+   public T data;
    public ListNode <T> next;
 
    public ListNode(T d)
